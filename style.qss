@@ -1,0 +1,147 @@
+/* 计算器整体样式 */
+QMainWindow {
+    background-color: #f5f5f5;
+}
+
+/* 显示结果的标签样式 */
+QLabel {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* 数字按钮样式 */
+QPushButton[objectName^="btnNum"] {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    min-height: 40px;
+    min-width: 40px;
+}
+
+QPushButton[objectName^="btnNum"]:hover {
+    background-color: #e6e6e6;
+}
+
+QPushButton[objectName^="btnNum"]:pressed {
+    background-color: #d4d4d4;
+}
+
+/* 运算符按钮样式 */
+QPushButton[objectName="btnPlus"],
+QPushButton[objectName="btnMinus"],
+QPushButton[objectName="btnMultiple"],
+QPushButton[objectName="btnDivide"] {
+    background-color: #f0ad4e;
+    color: white;
+    border: 1px solid #eea236;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    min-height: 40px;
+    min-width: 40px;
+}
+
+QPushButton[objectName="btnPlus"]:hover,
+QPushButton[objectName="btnMinus"]:hover,
+QPushButton[objectName="btnMultiple"]:hover,
+QPushButton[objectName="btnDivide"]:hover {
+    background-color: #ec971f;
+}
+
+QPushButton[objectName="btnPlus"]:pressed,
+QPushButton[objectName="btnMinus"]:pressed,
+QPushButton[objectName="btnMultiple"]:pressed,
+QPushButton[objectName="btnDivide"]:pressed {
+    background-color: #d58512;
+}
+
+/* 等号按钮样式 */
+QPushButton[objectName="btnEqual"] {
+    background-color: #5cb85c;
+    color: white;
+    border: 1px solid #4cae4c;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    min-height: 40px;
+    min-width: 40px;
+}
+
+QPushButton[objectName="btnEqual"]:hover {
+    background-color: #449d44;
+}
+
+QPushButton[objectName="btnEqual"]:pressed {
+    background-color: #398439;
+}
+
+/* 清除和删除按钮样式 */
+QPushButton[objectName="btnClear"],
+QPushButton[objectName="btnDel"],
+QPushButton[objectName="pushButton_2"] {
+    background-color: #d9534f;
+    color: white;
+    border: 1px solid #d43f3a;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    min-height: 40px;
+    min-width: 40px;
+}
+
+QPushButton[objectName="btnClear"]:hover,
+QPushButton[objectName="btnDel"]:hover,
+QPushButton[objectName="pushButton_2"]:hover {
+    background-color: #c9302c;
+}
+
+QPushButton[objectName="btnClear"]:pressed,
+QPushButton[objectName="btnDel"]:pressed,
+QPushButton[objectName="pushButton_2"]:pressed {
+    background-color: #ac2925;
+}
+
+/* 其他功能按钮样式 */
+QPushButton[objectName="btnPercentage"],
+QPushButton[objectName="btnInverse"],
+QPushButton[objectName="btnSquare"],
+QPushButton[objectName="btnSqrt"],
+QPushButton[objectName="btnPeriod"] {
+    background-color: #5bc0de;
+    color: white;
+    border: 1px solid #46b8da;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    min-height: 40px;
+    min-width: 40px;
+}
+
+QPushButton[objectName="btnPercentage"]:hover,
+QPushButton[objectName="btnInverse"]:hover,
+QPushButton[objectName="btnSquare"]:hover,
+QPushButton[objectName="btnSqrt"]:hover,
+QPushButton[objectName="btnPeriod"]:hover {
+    background-color: #31b0d5;
+}
+
+QPushButton[objectName="btnPercentage"]:pressed,
+QPushButton[objectName="btnInverse"]:pressed,
+QPushButton[objectName="btnSquare"]:pressed,
+QPushButton[objectName="btnSqrt"]:pressed,
+QPushButton[objectName="btnPeriod"]:pressed {
+    background-color: #269abc;
+}
+
+/* 状态栏样式 */
+QStatusBar {
+    background-color: #f8f8f8;
+    color: #777777;
+    border-top: 1px solid #e7e7e7;
+}
